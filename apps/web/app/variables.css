@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #00A8FF; /* New button color */
+  --secondary-color: #ff00ff;
+  --accent-color: #00ffff;
+  --text-primary-color: #ffffff;
+  --text-secondary-color: #cccccc;
+  --background-color: #0a0211;
+
+  --primary-shadow: 0 0 20px rgba(0, 168, 255, 0.5); /* New button shadow */
+  --secondary-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+  --accent-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  --text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+
+  --primary-hover-color: #00C0FF; /* New button hover color */
+  --secondary-hover-color: #ff69b4;
+  --accent-hover-color: #7fffd4;
+
+  --border-color: rgba(255, 255, 255, 0.2);
+  --input-background: rgba(0, 0, 0, 0.3);
+  --input-border-color: rgba(255, 0, 193, 0.5);
+  --input-focus-border-color: rgba(255, 0, 193, 1);
+  --input-focus-shadow: 0 0 15px rgba(255, 0, 193, 0.7);
+}

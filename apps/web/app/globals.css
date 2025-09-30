@@ -1,3 +1,6 @@
+@import './variables.css';
+
 body {
-  background-color: red;
+  background-color: var(--background-color);
+  color: var(--text-primary-color);
 }

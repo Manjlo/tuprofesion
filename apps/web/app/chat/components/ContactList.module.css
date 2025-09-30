@@ -1,0 +1,58 @@
+.contactListContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-right: 1px solid var(--border-color);
+  box-shadow: var(--secondary-shadow);
+}
+
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header h3 {
+  margin: 0 0 1rem 0;
+  color: var(--text-primary-color);
+}
+
+.searchInput {
+  border-radius: 8px;
+}
+
+.contacts {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.contact:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: var(--accent-shadow);
+}
+
+.contactInfo {
+  margin-left: 1rem;
+}
+
+.contactInfo h4 {
+  margin: 0;
+  color: var(--text-primary-color);
+}
+
+.contactInfo p {
+  margin: 0;
+  color: var(--text-secondary-color);
+}
+
+.online {
+  border: 2px solid var(--accent-color);
+}

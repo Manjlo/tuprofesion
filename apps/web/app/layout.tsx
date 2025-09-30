@@ -1,9 +1,13 @@
 import "@repo/ui/styles.css";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Exo_2 } from "next/font/google";
+import AntdRegistry from "../components/AntdRegistry";
 
-const geist = Geist({ subsets: ["latin"] });
+const exo2 = Exo_2({
+  subsets: ["latin"],
+  weights: ["400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Create Turborepo",
@@ -17,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={geist.className}>{children}</body>
+      <body className={exo2.className}>
+        <AntdRegistry>{children}</AntdRegistry>
+      </body>
     </html>
   );
 }
