@@ -73,7 +73,7 @@ export default function LoginPage() {
       <div className={styles.authContainer}>
         <div className={styles.logoWrapper}>
           <Image
-            src="/tp_logo1.png"
+            src="/tp_logo.png"
             alt="Company Logo"
             width={350}
             height={60}
