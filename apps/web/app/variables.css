@@ -20,4 +20,7 @@
   --input-border-color: rgba(0, 255, 255, 0.6); /* Cyan border for input */
   --input-focus-border-color: rgba(0, 255, 255, 1); /* Cyan border for input on focus */
   --input-focus-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Cyan glow for input on focus */
+
+  --border-width: 2px;
+  --border-focus-width: 3px;
 }

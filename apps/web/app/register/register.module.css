@@ -13,7 +13,7 @@
   max-width: 480px;
   padding: 2.5rem;
   background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-color);
+  border: var(--border-width) solid var(--border-color);
   border-radius: 12px;
   box-shadow: 0 8px 30px var(--primary-shadow);
 }
@@ -56,7 +56,7 @@
   width: 100%;
   padding: 0.875rem 1rem;
   font-size: 1rem;
-  border: 1px solid var(--input-border-color);
+  border: var(--border-width) solid var(--input-border-color);
   border-radius: 8px;
   transition: border-color 0.2s, box-shadow 0.2s;
   background: var(--input-background);
@@ -67,6 +67,7 @@
   outline: none;
   border-color: var(--input-focus-border-color);
   box-shadow: var(--input-focus-shadow);
+  border-width: var(--border-focus-width);
 }
 
 .button {

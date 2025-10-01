@@ -85,7 +85,7 @@
   max-width: 440px;
   padding: 3rem;
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-color);
+  border: var(--border-width) solid var(--border-color);
   border-radius: 16px;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
@@ -110,7 +110,7 @@
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   margin-bottom: 2rem;
-  /* filter: drop-shadow(0 0 10px var(--text-primary-color)); */
+  filter: drop-shadow(0 0 15px var(--accent-color));
 }
 
 .title {
@@ -238,7 +238,7 @@
 /* OTP Inputs */
 :global(.ant-space-compact) input {
   background: var(--input-background) !important;
-  border: 1px solid var(--text-primary-color) !important;
+  border: var(--border-width) solid var(--text-primary-color) !important;
   color: var(--text-primary-color) !important;
   font-size: 1.5rem;
   font-weight: 600;
@@ -246,6 +246,7 @@
 :global(.ant-space-compact) input:focus {
   box-shadow: var(--accent-shadow) !important;
   border-color: var(--accent-color) !important;
+  border-width: var(--border-focus-width) !important;
 }
 
 .resendText {
